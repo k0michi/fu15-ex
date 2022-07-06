@@ -20,8 +20,8 @@ for i in range(1, 4):
     tCount += 1
 
 if hCount > tCount:
-  print("You won")
+  print(f"{name} won")
 else:
-  print("You lost")
+  print(f"{name} lost")
 
 print(f"Heads: {hCount}, Tails: {tCount}")
