@@ -15,4 +15,9 @@ for i in range(1, 4):
     print(f"Round {i}: Tails")
     tCount += 1
 
+if hCount > tCount:
+  print("You won")
+else:
+  print("You lost")
+
 print(f"Heads: {hCount}, Tails: {tCount}")
