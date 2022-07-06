@@ -1,5 +1,9 @@
 import random
 
+print("Who are you?")
+name = input()
+print(f"Hello, {name}!")
+
 print("Tossing a coin...")
 
 hCount = 0
